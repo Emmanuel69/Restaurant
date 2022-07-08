@@ -1,0 +1,1 @@
+window.location.href = "http://restaurant.com/home.html";

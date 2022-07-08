@@ -1,0 +1,38 @@
+body{
+	background-color: lightgray;
+}
+.A{
+	font-family: Lucida Handwriting;
+	font-size: 30px;
+	color: gold;
+}
+.B{
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.C{
+	color: Red;
+	position: absolute;
+		left: 10%;
+}
+#d{
+	display: inline;
+    width: 33.33%; 
+    height: 50vh;
+    padding: 5px;
+}
+.yan{
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	width: 100%;
+}
+@media(max-width: 765px)
+{
+	.yan{
+		display: none;
+	}
+	.c{
+		
+	}
+}

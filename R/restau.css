@@ -1,0 +1,47 @@
+.C{
+	display: flex;
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.s{
+	margin: 15px 20px;
+	padding: 5px 5px;
+	display: inline;
+}
+body{
+	background-image: url("4.jpg");
+	background-size: cover;
+	animation: slide 15s ease-in-out infinite;
+}
+@keyframes slide{
+	0%,100%{
+		background-image: url(4.jpg);
+	}
+	40%{
+		background-image: url(5.jpg);
+	}
+	60%{
+		background-image: url(8.jpg);
+	}
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+a:hover{
+	color: white;
+	text-decoration-line: underline;
+}
+#A{
+	font-family: Lucida Handwriting;
+	font-size: 30px;
+	color: gold;
+}
+#B{
+	font-family: Times New Romans;
+	float: left;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
